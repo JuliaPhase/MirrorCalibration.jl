@@ -8,7 +8,7 @@ makedocs(;
     authors="Oleg Soloviev",
     sitename="MirrorCalibration.jl",
     format=Documenter.HTML(;
-        canonical="https://olejorik.github.io/MirrorCalibration.jl",
+        canonical="https://juliaphase.github.io/MirrorCalibration.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/olejorik/MirrorCalibration.jl",
+    repo="github.com/JuliaPhase/MirrorCalibration.jl",
     devbranch="main",
 )

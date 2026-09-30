@@ -4,7 +4,7 @@ CurrentModule = MirrorCalibration
 
 # MirrorCalibration
 
-Documentation for [MirrorCalibration](https://github.com/olejorik/MirrorCalibration.jl).
+Documentation for [MirrorCalibration](https://github.com/JuliaPhase/MirrorCalibration.jl).
 
 ```@index
 ```
