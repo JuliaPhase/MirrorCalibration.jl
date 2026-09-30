@@ -1,0 +1,28 @@
+{
+  "title": "MirrorCalibration.jl",
+  "upload_type": "software",
+  "description": "<p>Julia tools for calibrating deformable mirrors from interferometric measurements: recording interferograms for series of control voltages, processing them into phase responses, and computing calibrated voltages.</p>",
+  "creators": [
+    {
+      "name": "Soloviev, Oleg",
+      "affiliation": "Flexible Optical B.V. (OKO Technologies)",
+      "orcid": "0000-0003-3761-9192"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "0.1.0",
+  "keywords": [
+    "deformable mirror",
+    "calibration",
+    "interferometry",
+    "adaptive optics",
+    "wavefront",
+    "Julia"
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101111948"
+    }
+  ]
+}

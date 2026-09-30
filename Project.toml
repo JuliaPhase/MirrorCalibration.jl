@@ -1,7 +1,7 @@
 name = "MirrorCalibration"
 uuid = "59918b65-ac46-41ac-bfb8-8ca8fa7fc73e"
-authors = ["Oleg Soloviev"]
-version = "0.0.1"
+authors = ["Oleg Soloviev <oleg.soloviev@gmail.com> and contributors"]
+version = "0.1.0"
 
 [deps]
 EllipseGeometry = "56405771-b37b-4c45-a787-cc0a2fd6b078"
