@@ -21,17 +21,25 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 
 [compat]
-EllipseGeometry = "1.0.0"
-GLMakie = "0.11.5"
+EllipseGeometry = "0.1.0"
+GLMakie = "0.11.5, 0.13"
 HDF5 = "0.17.2"
-JLD2 = "0.5"
+JLD2 = "0.5, 0.6"
 LinearAlgebra = "1.11.0"
 PhaseBases = "0.1.0"
 PhaseFromInterferograms = "0.1.0"
-PhasePlots = "1.0.0"
-PhaseUtils = "1.0.0"
+PhasePlots = "0.1.0"
+PhaseUtils = "0.1.0"
 SampledDomains = "0.1.0"
 julia = "1"
+
+[sources]
+EllipseGeometry = {url = "https://github.com/JuliaPhase/EllipseGeometry.jl", rev = "main"}
+PhaseBases = {url = "https://github.com/JuliaPhase/PhaseBases.jl", rev = "main"}
+PhaseFromInterferograms = {url = "https://github.com/JuliaPhase/PhaseFromInterferograms.jl", rev = "main"}
+PhasePlots = {url = "https://github.com/JuliaPhase/PhasePlots.jl", rev = "main"}
+PhaseUtils = {url = "https://github.com/JuliaPhase/PhaseUtils.jl", rev = "main"}
+SampledDomains = {url = "https://github.com/JuliaPhase/SampledDomains.jl", rev = "main"}
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
