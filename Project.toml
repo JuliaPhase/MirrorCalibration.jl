@@ -31,7 +31,7 @@ PhaseFromInterferograms = "0.1.0"
 PhasePlots = "0.1.0"
 PhaseUtils = "0.1.0"
 SampledDomains = "0.1.0"
-julia = "1"
+julia = "1.11"
 
 [sources]
 EllipseGeometry = {url = "https://github.com/JuliaPhase/EllipseGeometry.jl", rev = "main"}
