@@ -237,6 +237,7 @@ function record_interferograms(
                     go=EXPERIMENT_MODE,
                 ),
             ) do experiment
+                @info "Experiment initialized. Running..."
                 experiment.run()  # This is the blocking call that runs the experiment
                 @info "Experiment completed"
                 return true

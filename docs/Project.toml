@@ -1,6 +1,11 @@
 [deps]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 MirrorCalibration = "59918b65-ac46-41ac-bfb8-8ca8fa7fc73e"
 
 [sources]
 MirrorCalibration = {path = ".."}
+
+[compat]
+# Makie 0.24.15 breaks contour! on NaN-masked data (MakieOrg/Makie.jl#5812, fixed upstream, not released yet); remove the pin once a release with the fix is out
+Makie = "=0.24.14"
